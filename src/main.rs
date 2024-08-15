@@ -1,8 +1,8 @@
 use clap::{Parser, ValueEnum};
 
 use csv::Writer;
+use std::fs::File;
 use std::io::BufReader;
-use std::{backtrace, fs::File};
 use xml::reader::{EventReader, XmlEvent};
 
 use quick_xml::{events::Event, reader::Reader};

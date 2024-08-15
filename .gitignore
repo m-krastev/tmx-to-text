@@ -184,3 +184,4 @@ Cargo.lock
 #.idea/
 
 test
+flamegraph*
