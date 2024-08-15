@@ -28,7 +28,7 @@ struct Args {
     // #[arg(short, long, default_value_t = false)]
     // debug: bool,
     /// Encoding of the input file, either utf8 or utf16. If utf8, the parser can be faster.
-    #[arg(short, long)]
+    #[arg(short, long, default_value = "utf16")]
     encoding: Encoding,
 }
 
